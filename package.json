@@ -33,6 +33,7 @@
     "semantic-release": "^8.0.3"
   },
   "scripts": {
+    "lint": "yarn eslint ./src",
     "prepublish": "rm -rf lib && babel src --out-dir lib",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "jest ./src"

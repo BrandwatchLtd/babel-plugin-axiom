@@ -16,10 +16,10 @@
     "url": "https://github.com/BrandwatchLtd/babel-plugin-axiom/issues"
   },
   "dependencies": {
-    "babylon": "^6.18.0",
+    "babylon": "^6.18.0"
   },
   "peerDependencies": {
-    "bw-axiom": "^27.2.0",
+    "bw-axiom": "^27.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

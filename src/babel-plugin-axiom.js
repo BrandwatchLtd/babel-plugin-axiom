@@ -31,9 +31,9 @@ export default ({ types }) => {
     visitor: {
       Program: {
         enter() {
-          axioms = {};
-          specified = {};
-          selectedAxioms = {};
+          axioms = Object.create(null);
+          specified = Object.create(null);
+          selectedAxioms = Object.create(null);
         },
       },
 

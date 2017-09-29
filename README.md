@@ -1,5 +1,8 @@
 # babel-plugin-axiom
 
+[![Build Status](https://travis-ci.org/BrandwatchLtd/babel-plugin-axiom.svg?branch=master)](https://travis-ci.org/BrandwatchLtd/babel-plugin-axiom)
+[![npm version](https://badge.fury.io/js/babel-plugin-axiom.svg)](https://badge.fury.io/js/babel-plugin-axiom)
+
 This plugin is a transform to remove unused Axiom dependencies without the need to target the relative paths of exports.
 
 #### See also

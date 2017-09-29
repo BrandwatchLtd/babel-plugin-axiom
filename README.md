@@ -1,6 +1,6 @@
 # babel-plugin-axiom
 
-This plugin is a transform to remove unused Axiom dependencies without the need target the relative paths of exports.
+This plugin is a transform to remove unused Axiom dependencies without the need to target the relative paths of exports.
 
 #### See also
 * [`babel-plugin-lodash`](https://github.com/megawac/babel-plugin-lodash)

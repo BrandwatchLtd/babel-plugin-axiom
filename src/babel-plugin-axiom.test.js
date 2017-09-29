@@ -1,10 +1,10 @@
-import path  from 'path';
-import fs  from 'fs';
+import path from 'path';
+import fs from 'fs';
 import { transformFileSync } from 'babel-core';
-import babelPluginAxiom  from './babel-plugin-axiom';
+import babelPluginAxiom from './babel-plugin-axiom';
 
 const getFile = (test, type) => path.resolve(__dirname, `../test_fixtures/${test}_${type}.js`);
-const getActualFile = (test) =>  getFile(test, 'actual');
+const getActualFile = (test) => getFile(test, 'actual');
 const getExpectedFile = (test) => fs.readFileSync(getFile(test, 'expected')).toString().trim();
 
 describe('babelPluginAxiom', () => {

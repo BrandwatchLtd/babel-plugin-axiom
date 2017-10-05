@@ -19,14 +19,14 @@
     "babylon": "^6.18.0"
   },
   "peerDependencies": {
-    "bw-axiom": "^27.3.2"
+    "bw-axiom": "^28.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-preset-es2015": "^6.24.1",
-    "bw-axiom": "^27.3.2",
+    "bw-axiom": "^28.0.0",
     "eslint": "^4.7.0",
     "eslint-config-axiom": "^3.0.1",
     "eslint-plugin-react": "^7.3.0",
